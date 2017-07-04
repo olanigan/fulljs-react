@@ -18,7 +18,3 @@ server.use(express.static('public'));
 server.listen(config.port, () => {
     console.log('Express listening on port', config.port);
 });
-
-
-
-//logStars(config);
