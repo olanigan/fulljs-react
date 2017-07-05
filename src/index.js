@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './components/Header';
 
-const color = Math.random()  < 0.6 ? 'green' : 'red';
+const App = () => {
+  return (
+        <div className="App">
+            <Header message="Naming contests"/> 
+            <div>
+              ...
+            </div>
+        </div>
+  );
+};
+
+export default App;
 
 ReactDOM.render(
-    //React.createElement('h2',null,'Hello React' ),
-    <h2 style={{color}} className="text-center">
-        Reacting with {Math.random()}
-        </h2>,
+    <App headerMsg="Messaging with Props"/>,
     document.getElementById('root')
 );
