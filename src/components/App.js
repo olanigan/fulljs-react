@@ -1,15 +1,20 @@
 import React from 'react';
 import Header from './Header';
 
-const App = () => {
-  return (
+class App extends React.Component {
+  state = {
+    pageHeader: 'Naming contests'
+  };
+  render(){
+    return (
         <div className="App">
-            <Header message="Naming contests"/> 
+            <Header message={this.state.pageHeader}/> 
             <div>
               ...
             </div>
         </div>
-  );
-};
+    );
+  }
+}
 
 export default App;
