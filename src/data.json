@@ -1,0 +1,24 @@
+{
+  "contests": [
+    {
+      "id": 1,
+      "categoryName": "Business/Company",
+      "contestName": "Marketing the Art of Competitive Advantage"
+    },
+    {
+      "id": 2,
+      "categoryName": "Magazine/Newsletter",
+      "contestName": "Administrative legislation about sustainable food production"
+    },
+    {
+      "id": 3,
+      "categoryName": "Software Component",
+      "contestName": "Open Data Framework for Cash Circulation"
+    },
+    {
+      "id": 4,
+      "categoryName": "Website",
+      "contestName": "Free linux books"
+    }
+  ]
+}
