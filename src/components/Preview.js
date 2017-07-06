@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Preview = (contest) => (
-    <p className="Preview">
-        <b>{contest.categoryName}</b>
-        <em>{contest.contestName}</em>
-    </p>
+    <div className="Preview">
+        <div className="category-name">{contest.categoryName}</div>
+        <div className="contest-name">{contest.contestName}</div>
+    </div>
     );
 
 export default Preview;

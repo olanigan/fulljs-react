@@ -22,7 +22,6 @@ class App extends React.Component {
                         <Preview {...contest}/>
                     )
                 }
-                
             </div>
         </div>
     );
