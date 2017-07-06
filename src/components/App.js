@@ -5,6 +5,12 @@ class App extends React.Component {
   state = {
     pageHeader: 'Naming contests'
   };
+  componentDidMount() {
+    //Add timers and listeners
+  }
+  componentWillUnmount() {
+    //Clean timers and listeners
+  }
   render(){
     return (
         <div className="App">
